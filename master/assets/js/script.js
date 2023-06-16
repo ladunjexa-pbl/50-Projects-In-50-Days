@@ -262,7 +262,7 @@ const loadProject = (project) => {
   );
   projectHref.setAttribute(
     "href",
-    `https://ladunjexa.github.io/50-Projects-in-50-Days/${
+    `https://ladunjexa.github.io/50-Projects-In-50-Days/${
       project.href ?? formatProjectHref(project.name)
     }`
   );
